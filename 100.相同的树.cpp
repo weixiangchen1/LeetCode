@@ -7,7 +7,7 @@
  * };
  */
 
-
+// Leetcode 100.相同的树.cpp
 bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     if(q == NULL && p == NULL)
         return true;
